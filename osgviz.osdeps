@@ -1,0 +1,11 @@
+curl-dev: 
+    ubuntu,debian: libcurl4-openssl-dev
+    msys: libcurl-devel
+
+dlfcn:
+    msys: mingw-w64-x86_64-dlfcn
+    default: ignore
+    
+    
+qtwebkit:
+    ubuntu: libqtwebkit-dev
