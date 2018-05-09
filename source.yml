@@ -2,7 +2,7 @@ name: osgviz
 
 version_control:
   - gui/osgviz:
-    github: rock-core/gui-osgviz-osgviz
+    github: rock-core/gui-osgviz
  
   - gui/osgviz_plugins/.*:
     github: rock-gui/gui-osgviz-plugin-$PACKAGE_BASENAME
