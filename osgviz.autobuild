@@ -1,8 +1,12 @@
 
 
-cmake_package 'gui/osgviz/osgviz'
+cmake_package 'gui/osgviz'
 cmake_package 'gui/osg_plugins/osgdb_bobj'
 
 
+
+metapackage 'gui/osgviz/osgviz', 'gui/osgviz' do
+    Autoproj.warn "the gui/osgviz/osgviz dependency is deprecated, please use gui/osgviz"
+end
 
 

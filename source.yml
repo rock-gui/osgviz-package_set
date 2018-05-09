@@ -1,21 +1,21 @@
 name: osgviz
 
 version_control:
-  - gui/osgviz/.*:
-    github: rock-gui/gui-osgviz-$PACKAGE_BASENAME.git
+  - gui/osgviz:
+    github: rock-core/gui-osgviz-osgviz
  
-  - gui/osgviz/plugins/.*:
-    github: rock-gui/gui-osgviz-plugin-$PACKAGE_BASENAME
+#  - gui/osgviz_plugins/.*:
+#    github: rock-gui/gui-osgviz-plugin-$PACKAGE_BASENAME
 
-  - gui/osgviz/tools/.*:
-    github: rock-gui/gui-osgviz-tools-$PACKAGE_BASENAME
+#  - gui/osgviz_tools/.*:
+#    github: rock-gui/gui-osgviz-tools-$PACKAGE_BASENAME
     
 #wrappers  
-  - gui/osgviz/orogen/.*:
-    github: rock-gui/gui-osgviz-orogen-$PACKAGE_BASENAME
+#  - gui/osgviz_orogen/.*:
+#    github: rock-gui/gui-osgviz-orogen-$PACKAGE_BASENAME
     
-  - gui/osgviz/mars-plugins/.*:
-    github: rock-gui/gui-osgviz-mars-plugin-$PACKAGE_BASENAME
+#  - gui/osgviz_mars-plugins/.*:
+#    github: rock-gui/gui-osgviz-mars-plugin-$PACKAGE_BASENAME
 
 #tools
   - gui/osg_plugins/osgdb_bobj:
