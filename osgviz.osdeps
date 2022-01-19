@@ -1,6 +1,7 @@
 curl-dev: 
     ubuntu,debian: libcurl4-openssl-dev
     msys: libcurl-devel
+    gentoo: net-misc/curl
 
 dlfcn:
     msys: mingw-w64-x86_64-dlfcn
